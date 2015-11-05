@@ -32,7 +32,16 @@ onMeasure()方法:
 
 ~~~
 
-####其中mScale 代表 height/width的值.
+####其中mScale 代表 height/width的值.   
+`app:scale=`根据这个来设置高宽比(即:高/宽)    
+也可以使用下面的更直观的指定高宽比:
+`app:scaleProvideY`   
+`app:scaleProvideX`
+可以实现一样的效果    
+`app:offsetY`设置偏差量,这上面比例的基础上高度要加上这个偏差量.   
+
+
+
 
 
 #sample#
@@ -52,6 +61,7 @@ onMeasure()方法:
 用`ScaleLayout` 包裹`ImageView`,用 `app:scale` 设置宽高比:
 用`android:layout_width="fill_parent"`
   `android:layout_height="fill_parent"` 设置`ImageView`,并且`scaleType`设置为`fitXY`.
+  
 
 [github](https://github.com/zzz40500/ScaleLayout)
 
