@@ -9,8 +9,11 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
     <com.mingle.widget.ScaleLayout
+        android:id="@+id/scaleLayout"
         android:layout_width="fill_parent"
-        app:scale="0.75"
+        app:scaleProvideY="1"
+        app:scaleProvideX="1"
+        app:offsetY="100dp"
         android:layout_height="wrap_content">
 
     <ImageView
@@ -19,5 +22,11 @@
         android:scaleType="fitXY"
         android:layout_height="fill_parent" />
     </com.mingle.widget.ScaleLayout>
+
+    <View
+        android:layout_alignBottom="@+id/scaleLayout"
+        android:layout_width="fill_parent"
+        android:background="#ff00ff"
+        android:layout_height="100dp"/>
 
 </RelativeLayout>

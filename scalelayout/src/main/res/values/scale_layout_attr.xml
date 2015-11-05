@@ -2,6 +2,9 @@
 <resources>
 
     <declare-styleable name="ScaleLayout">
-        <attr name="scale" format="float"/>
+        <attr name="scale" format="float" />
+        <attr name="scaleProvideX" format="float" />
+        <attr name="scaleProvideY" format="float" />
+        <attr name="offsetY" format="dimension" />
     </declare-styleable>
 </resources>
