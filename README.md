@@ -34,7 +34,7 @@ onMeasure()方法:
 
 ####其中mScale 代表 height/width的值.   
 `app:scale=`根据这个来设置高宽比(即:高/宽)    
-也可以使用下面的更直观的指定高宽比:
+也可以使用下面的更直观的指定高宽比:   
 `app:scaleProvideY`   
 `app:scaleProvideX`
 可以实现一样的效果    
